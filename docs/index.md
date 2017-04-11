@@ -8,7 +8,7 @@ The source code is available at [https://github.com/RedisLabsModules/RediSearch]
 
 ## Overview
 
-Redisearch impements a search engine on top of redis, but unlike other redis 
+Redisearch implements a search engine on top of redis, but unlike other redis 
 search libraries, it does not use internal data structures like sorted sets.
 
 Inverted indexes are stored on top of Redis strings using binary encoding,
